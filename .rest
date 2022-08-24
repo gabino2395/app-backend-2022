@@ -1,0 +1,14 @@
+# POST http://localhost:8080/api/productos HTTP/1.1
+# content-type: application/json
+
+# {
+# Juan"nombre": ""
+# }
+GET  http://localhost:8000/api/productos/3 HTTP/1.1
+content-type: application/json
+
+{
+    "isAdmin":false
+}
+
+
